@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, // Enables strict type checking
+    "jsx": "react-jsx", // Ensures compatibility with React JSX
+    "module": "ESNext", // Modern module resolution
+    "target": "ESNext", // Enables modern JavaScript features
+    "moduleResolution": "node", // Matches Vite's behavior
+    "esModuleInterop": true, // Ensures compatibility with CommonJS modules
+    "skipLibCheck": true, // Speeds up compilation by skipping type checks in node_modules
+    "resolveJsonModule": true // Allows importing JSON files
+  },
+  "include": ["src"], // Include all files in the src directory
+  "exclude": ["node_modules", "dist"] // Exclude build files and dependencies
+}
