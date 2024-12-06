@@ -8,7 +8,7 @@ const LoginForm: React.FC = () => {
       <div className="flex max-w-[1100px] rounded-lg bg-white">
         <img className='hidden lg:block lg:w-1/2 object-cover rounded-l-lg' src={login} alt='login'/>
         
-        {/* Right Section - Form */}
+
         <div className="w-full lg:w-1/2 flex items-center justify-center p-8">
           <div className="w-full max-w-md p-8 space-y-6 bg-white">
             <div className="space-y-2 text-center">
