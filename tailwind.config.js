@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -14,12 +14,10 @@ module.exports = {
         },
         subtext: "#737373",
         foreground: "#F8F8F8",
-        iconBg: '#EEF6FC',
-        cardBg: '#E6E9EE',
-        text: '#454D5D',
-        gold: '#FF9000',
-        
-
+        iconBg: "#EEF6FC",
+        cardBg: "#E6E9EE",
+        text: "#454D5D",
+        gold: "#FF9000",
       },
       backgroundImage: {
         "hero-image": "url('../assets/home.jpg')",
