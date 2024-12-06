@@ -91,7 +91,7 @@ export default function Navbar() {
             </ul>
           </div>
           <Link
-            to="/"
+            to="/login"
             className="hidden md:block text-white bg-primary-2 hover:bg-primary-2/70 duration-300 py-3 px-5 rounded-3xl"
           >
             Get Appointment

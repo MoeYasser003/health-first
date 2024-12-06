@@ -15,7 +15,7 @@ export default function Hero() {
                 </p>
             </div>
             <div className="mt-10 flex gap-3">
-              <Link to="/" className="py-2 px-3 rounded-3xl bg-primary-1 text-white hover:bg-primary-1/80 duration-300 md:py-3 md:px-4 md:text-lg">
+              <Link to="/login" className="py-2 px-3 rounded-3xl bg-primary-1 text-white hover:bg-primary-1/80 duration-300 md:py-3 md:px-4 md:text-lg">
                 Get Started
               </Link>
               <Link to="/" className="py-2 px-3 rounded-3xl bg-primary-1 text-white hover:bg-primary-1/80 duration-300 md:py-3 md:px-4 md:text-lg">
